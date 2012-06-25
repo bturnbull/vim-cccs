@@ -9,12 +9,17 @@ Differences
 Installation
 ============
 
-To install using [Pathogen][2]:
+To install using [Pathogen][2], clone the repo to your bundle directory:
 
-    cd ${HOME}/.vim/bundle
     git clone git://github.com/bturnbull/vim-cccs.git
 
-To install manually, copy the matching cccs.vim to .vim/syntax and .vim/ftdetect
+To install manually, copy the matching cccs.vim to .vim/syntax and .vim/ftdetect (or equivalent).
+
+Issues
+======
+
+If you are running a Vim older than 7.3.430 and filetype detection fails (results in a "conf" detection), you may need to apply the patch detailed in [Issue 52][3].
 
 [1]: http://www.spocom.com/users/gjohnson/vim/
 [2]: https://github.com/tpope/vim-pathogen
+[3]: http://code.google.com/p/vim/issues/detail?id=52
